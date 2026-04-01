@@ -40,6 +40,7 @@ hn=hd.*wh
 w=0:0.01:pi; 
 h=freqz(hn,1,w);
 plot(w/pi,abs(h),'blue');
+```
 ## OUTPUT:
 <img width="626" height="500" alt="image" src="https://github.com/user-attachments/assets/69ab266e-cc82-404a-84aa-2faa08c76ceb" />
 
